@@ -1,0 +1,82 @@
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+.content-container, .button-container, .vehicle_name, body{
+    display: flex;
+}
+
+.content-container, .button-container, body{
+    justify-content: center;
+}
+.content-container{
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 100px;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+img{
+    text-align: center;
+    width: 200px;
+}
+
+h1{
+    color: #6cf20c;
+}
+.button-container, .vehicle_name{
+    flex-direction: row;
+}
+.button-container{
+    width: 100%;
+    background-color: #6cf20c;
+    padding: 8px;
+}
+
+div button:first-child{
+    margin-right: 4px;
+}
+
+div button:last-child{
+    margin-left: 4px;
+}
+.vehicles{
+    color: #ffffff;
+    width: 100%;
+}
+
+.vehicle_name{
+    align-items: baseline;
+
+}
+.vehicle_name h2{
+    margin-bottom: 0;
+}
+.address:before{
+    content: '\2907';
+}
+
+.vehicles div:last-child{
+
+    height: 30px;
+    border-radius: 6px;
+}
+
+.first div:last-child{
+    background-color: orange;
+    width: 30%;
+}
+
+.second div:last-child{
+    background-color: #6cf20c;
+    width: 60%;
+}
+
+.third div:last-child{
+    background-color: red;
+    width: 10%;
+}
+
